@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #C5F7F0;
+    font-family: "League Spartan";
+    font-size: 40px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    height: 100vh;
+}
+.linha1{
+    background-color: #A9C2C9;
+}
+td{
+    height: 10vh;
+    width: 10%;
+}
+ul{
+    font-size: 0.8em;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+nav, p{
+    color: #72577C;
+}
+.rodape{
+    font-size: 22px;
+    color: black;
+}
+h1{
+    font-size: 42px;
+    text-align: center;
+}
+.preto{
+    color: #72577C;
+    text-align: center;
+    font-size: 1em;
+}
+.roxo{
+    font-size: 1em;
+    text-align: center;
+}
+tr{
+    position: relative;
+}
+.gmail{
+    text-decoration: underline;
+}
+.logo{
+    height: 80px;
+}
+a{
+    color: #72577C;
+    text-decoration: none;
+}
+.HOME:hover,.CONTATO:hover,.SOBRE:hover,.preto:hover{
+    text-decoration: underline;
+    color: #530270;
+}
+.input{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+.form{
+    text-align: center;
+}
+.inputBtn{
+    text-align: center;
+    color: #515151;
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+}
+.inputDiv{
+    text-align: center;
+}
+.tecladosP{
+    text-align: center;
+    color: black;
+    font-size: 0.8em;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.tecladosP:hover{
+    background-color: black;
+    color: #C5F7F0;
+}
